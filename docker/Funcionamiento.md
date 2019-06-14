@@ -1,3 +1,14 @@
+El siguiente fichero explica el funcionamiento del fichero Dockerfile:
+1. El único requisito es tener instalado Docker en nuestro sistema.
+2. Descargar el fichero Dockerfile.
+3. Ejecutar los comandos siguientes:
+
+`docker build -t <nombre> <ruta_al_fichero_Dockerfile>`
+  + Ejemplo: docker build -t mi_contenedor .
+  
+ `docker run -dp <puerto_host>:<puerto_contenedor> <nombre_de_la_imagen>`
+  + Ejemplo: docker run -dp 9010:80 mi_contenedor
+
 ## Funcionamiento
 
 1. Descarga de la *imagen* Ubuntu 16.04 del respositorio local y en caso de no encontrar la imagen, Docker acudirá a su repositorio.
@@ -9,17 +20,3 @@
 7. Copiar los ficheros extraídos al directorio '/var/www/html', DocumentRoot por defecto de apache2
 8. Exponer el puerto 9010.
 9. Ejecutar al lanzar el contenedor apache2 en segundo plano.
-
-### Ejecución de comandos
-
-###### Creación de la imagen
-
-1. Lanzar el comando:
-  + docker build -t <nombre> <ruta_al_fichero_Dockerfile>
-    + EJ: docker build -t mi_contenedor .
-
-###### Creación del contenedor a partir de la imagen
-
-1. Lanzar el comando:
-  + docker run -dp <puerto_host>:<puerto_contenedor> <nombre_de_la_imagen>
-    + EJ: docker run -p 9010:80 mi_contenedor
