@@ -12,5 +12,5 @@ El siguiente fichero explica el funcionamiento del fichero Vagrantfile:
 2. Establecer directorios sincronizados entre la máquina anfitrión y la máquina virtual. El directorio en la máquina hosts será el directorio 'shared', el cual comparte el mismo directorio que el fichero Vagrantfile y se sincroniza con el directorio '/var/www/html' de la máquina virtual. Todo fichero en un directorio se corresponderá en el otro directorio y viceversa.
 3. Redirección de puertos entre la máquina host 9005 contra el puerto de la máquina virtual 80.
 4. Aprovisionamiento de la máquina virtual a partir de SHELL.
-  + Actualización del sistema.
-  + Instalación de apache2.
+    + Actualización del sistema.
+    + Instalación de apache2.
