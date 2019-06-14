@@ -1,7 +1,7 @@
 El siguiente fichero explica el funcionamiento del fichero Dockerfile:
 1. El único requisito es tener instalado Docker en nuestro sistema.
 2. Descargar el fichero Dockerfile.
-3. Ejecutar los comandos siguientes:
+3. Ejecutar los comandos siguientes en el directorio donde se encuentra el fichero Dockerfile:
 
 `docker build -t <nombre> <ruta_al_fichero_Dockerfile>`
   + Ejemplo: docker build -t mi_contenedor .
