@@ -3,7 +3,7 @@
 
 **Alumno:** José Pedro Campos Pérez  
 **Módulo:** Ciclo formativo de grado superopr en Administración de Sistemas Informáticos y Redes  
-**Año:** 2019  
+**Año:** 2018-2019  
 **Centro:** IES Francesc de Borja Moll  
 
 
