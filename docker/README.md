@@ -3,7 +3,7 @@ El siguiente fichero explica el funcionamiento del fichero Dockerfile:
 2. Descargar el fichero Dockerfile.
 3. Ejecutar los comandos siguientes:
 
-`docker build -t *<nombre>* *<ruta_al_fichero_Dockerfile>*`
+`docker build -t <nombre> <ruta_al_fichero_Dockerfile>`
   + Ejemplo: docker build -t mi_contenedor .
   
  `docker run -dp <puerto_host>:<puerto_contenedor> <nombre_de_la_imagen>`
