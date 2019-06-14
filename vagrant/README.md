@@ -1,7 +1,6 @@
 El siguiente fichero explica el funcionamiento del fichero Vagrantfile:
-1. El único requisito es tener instalado Vagrant y Virtualbox.
-2. Descargar el fichero Vagrantfile.
-3. Disponer de un directorio llamado 'shared' en el directorio donde se encuentra el fichero Vagrantfile.
+1. Descargar el fichero Vagrantfile.
+2. Disponer de un directorio llamado 'shared' en el directorio donde se encuentra el fichero Vagrantfile.
 3. Ejecutar el comando siguiente en el directorio donde se encuentra el fichero Vagrantfile:
 
 `vagrant up`
