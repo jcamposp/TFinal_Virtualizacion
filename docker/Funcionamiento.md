@@ -12,6 +12,14 @@
 
 ### Ejecución de comandos
 
-1. Lanzar el comando 
+###### Creación de la imagen
+
+1. Lanzar el comando:
   + docker build -t <nombre> <ruta_al_fichero_Dockerfile>
-    + docker build -t mi_contenedor .
+    + EJ: docker build -t mi_contenedor .
+
+###### Creación del contenedor a partir de la imagen
+
+1. Lanzar el comando:
+  + docker run -dp <puerto_host>:<puerto_contenedor> <nombre_de_la_imagen>
+    + EJ: docker run -p 9010:80 mi_contenedor
