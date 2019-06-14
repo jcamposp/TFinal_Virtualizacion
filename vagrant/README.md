@@ -14,5 +14,3 @@ El siguiente fichero explica el funcionamiento del fichero Vagrantfile:
 4. Aprovisionamiento de la máquina virtual a partir de SHELL.
   + Actualización del sistema.
   + Instalación de apache2.
-
-![Árbol](https://github.com/
