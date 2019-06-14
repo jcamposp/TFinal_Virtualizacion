@@ -1,10 +1,10 @@
 # TFinal_Virtualizacion
 
 
-**Alumno:** José Pedro Campos Pérez
-**Módulo:** Ciclo formativo de grado superopr en Administración de Sistemas Informáticos y Redes.
-**Año:** 2019
-**Centro:** IES Francesc de Borja Moll
+**Alumno:** José Pedro Campos Pérez  
+**Módulo:** Ciclo formativo de grado superopr en Administración de Sistemas Informáticos y Redes  
+**Año:** 2019  
+**Centro:** IES Francesc de Borja Moll  
 
 
 Este es el repositorio que acompaña al trabajo final del CFGS de Administración de Sistemas Informáticos y Redes.
