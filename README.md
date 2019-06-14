@@ -8,7 +8,7 @@
 
 
   
-   
+ -------------------  
 Este es el repositorio que acompaña al trabajo final del CFGS de Administración de Sistemas Informáticos y Redes.
 
 Aquí se encuentran los ficheros para Docker, Docker Compose y Vagrant para su descarga y su puesta en marcha inmediata.
