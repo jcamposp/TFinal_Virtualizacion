@@ -1,0 +1,256 @@
+@font-face {
+	font-family: 'poller_oneregular';
+	src: url('../fonts/pollerone/pollerone-webfont.eot');
+	src: url('../fonts/pollerone/pollerone-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/pollerone/pollerone-webfont.woff') format('woff'),
+		 url('../fonts/pollerone/pollerone-webfont.ttf') format('truetype'),
+		 url('../fonts/pollerone/pollerone-webfont.svg#poller_oneregular') format('svg');
+}
+
+@font-face {
+	font-family: 'droid_serif';
+	src: url('../fonts/droidserif/droidserif.ttf');
+}
+
+html {
+	width:100%;
+}
+
+/* ######################################## CONTAINER WEB */
+
+.contenedor {
+	width:100%;
+}
+
+.mainTop {
+	background-image:url("../images/lily-banse-365344-unsplash.jpg");
+	height:700px;
+	background-position:center;	
+	background-repeat:no-repeat;
+	background-size:cover;
+	position:relative;
+	text-align:center;
+}
+
+.logo {
+	width:20%;
+	height:20%;
+	position:absolute;
+	top:30%;
+	right:40%;
+}
+
+.navBar {
+	position:relative;
+	top:90%;
+	background-color:#40bf80;
+	opacity:0.5;
+}
+
+.navBar:hover {
+	opacity:0.85;
+}
+
+.navBar ul {
+	list-style-type:none;
+	margin:1%;
+	padding:1%;
+}
+
+.navBar li {
+	display:inline;
+}
+
+.navBar a {
+	text-decoration:none;
+	color:white;
+	font-family:"droid_serif";
+	text-transform:uppercase;
+	font-weight:bold;
+	margin:3%;
+	padding:2%;
+}
+
+.navBar a:hover {
+	color:#ff8533;
+}
+
+#mainContent {
+	margin:4%;
+}
+
+
+footer div {
+	width:100%;
+	background-color:#1a1a1a;
+	float:right;
+}
+
+footer small {
+	color:white;
+	font-family:Arial;
+	width:30%;
+	position:relative;
+	bottom:0;
+	padding-left:3%;
+	padding-top:3%;
+	float:left;
+}
+
+footer ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+	padding-top:3%;
+	position:relative;
+	right:15%;
+}
+
+footer li {
+	display:inline;
+	padding-left:1.5%;
+	padding-right:1.5%;
+	padding-bottom:0;
+}
+
+footer li a {
+	display:inline-block;
+	text-align:center;
+}
+
+/* ######################################## ICONS */
+
+#twitter {
+	background:url("../images/icons/icon-twitter.jpg") no-repeat center top;
+	height:44px;
+	width:44px;
+}
+
+#twitter:hover {
+	background-image:url("../images/icons/icon-twitter-hover.jpg");
+}
+
+#facebook {
+	background:url("../images/icons/icon-facebook.jpg") no-repeat center top;
+	height:44px;
+	width:44px;	
+}
+
+#facebook:hover {
+	background-image:url("../images/icons/icon-facebook-hover.jpg");
+}
+
+#pinterest {
+	background:url("../images/icons/icon-pinterest.jpg") no-repeat center top;
+	height:44px;
+	width:44px;	
+}
+
+#pinterest:hover {
+	background-image:url("../images/icons/icon-pinterest-hover.jpg");
+}
+
+#ghub {
+	background:url("../images/icons/icon-github.png") no-repeat center top;
+	height:44px;
+	width:44px;
+}
+
+#ghub:hover {
+	background-image:url("../images/icons/icon-github-hover.png");
+}
+
+/* ######################################## FORM */
+
+#frm {
+	position:sticky;
+	top:0;
+	z-index:10;
+	background-color:#40bf80;
+	color:white;
+    text-align:center;
+	padding:3px;
+	border:2px solid #ff8533;
+}
+
+.slc {
+	padding:1.5px;
+	margin-left:10px;
+	margin-right:10px;
+	border-radius:4px;
+	border:none;
+	outline:none;
+	display:inline-block;
+	appearance:none;
+	cursor:pointer;
+}
+
+.slc:hover {
+	color:#ff8533;
+}
+
+#sbmt {
+	padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#sbmt:hover {
+	color:#ff8533;
+	padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+/* ######################################## INDIVIDUAL */
+
+#mainRestaurant {
+	margin:30px;
+}
+
+#imgCard {
+	margin:10px;
+}
+
+#goback {
+	margin-left:30px;
+	margin-bottom:10px;
+}
+
+#submitbutton {
+	margin:10%;
+}
+
+.formlogin {
+	border:2px solid #ff8533;
+	margin-top:1%;
+	padding:3px;
+	color:white;
+	background-color:#40bf80;
+	text-align:right;
+}
+
+#welcomespan {
+	position:relative;
+	left:100px;
+}
+
+#welcomespan1 {
+	position:sticky;
+	top:0;
+}
+
+#text {
+	resize:none;
+}
+
+#commentsubmit:hover {
+	color:#ff8533;
+}
